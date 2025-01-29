@@ -1,0 +1,2 @@
+# PHP Memory Exhaustion Bug
+This repository demonstrates a common PHP bug involving memory exhaustion when using `file_get_contents()` to read large files.  The `bug.php` file shows the problematic code, while `bugSolution.php` offers a solution using stream wrappers for memory-efficient processing.
